@@ -63,7 +63,7 @@ which.max(table(EV$Make))
 
 mean(EV$`Electric Range`[EV$City == "Olympia"], na.rm = TRUE)
 
-#which Make is most used in King County?
+#which Make is most Make used in King County?
 
 king_data <- subset(EV, County == "King")
 table(king_data$Make)
